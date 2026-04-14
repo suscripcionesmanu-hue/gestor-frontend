@@ -1,0 +1,1 @@
+export default function CursoDetalle() { return <div className="p-10"><h1 className="text-3xl font-bold">Detalle Curso</h1></div>; }

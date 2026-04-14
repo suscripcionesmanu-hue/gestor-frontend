@@ -1,0 +1,1 @@
+export default function Certificados() { return <div className="p-10"><h1 className="text-3xl font-bold">Certificados</h1></div>; }

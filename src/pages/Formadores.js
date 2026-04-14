@@ -1,0 +1,1 @@
+export default function Formadores() { return <div className="p-10"><h1 className="text-3xl font-bold">Formadores</h1></div>; }
