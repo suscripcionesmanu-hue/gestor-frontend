@@ -26,7 +26,7 @@ export default function Login() {
         <h2 className="text-2xl font-bold mb-6">Iniciar Sesión</h2>
         <input type="text" placeholder="Usuario" value={username} onChange={(e) => setUsername(e.target.value)} className="w-full p-3 mb-4 border rounded" />
         <input type="password" placeholder="Contraseña" value={password} onChange={(e) => setPassword(e.target.value)} className="w-full p-3 mb-6 border rounded" />
-        <button className="w-full bg-blue-600 text-white p-3 rounded font-bold">Entrar</button>
+        <button className="w-full bg-blue-600 text-white p-3 rounded font-bold">Acceder</button>
       </form>
     </div>
   );
