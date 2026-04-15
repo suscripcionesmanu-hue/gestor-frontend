@@ -6,7 +6,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     // Llamamos a tu backend para pedir cursos
-    axios.get("http://localhost:4000/cursos")
+    axios.get("https://gestor-backend-061t.onrender.com/cursos")
       .then(res => {
         setCursos(res.data);
       })

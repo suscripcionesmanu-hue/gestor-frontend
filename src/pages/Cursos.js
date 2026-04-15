@@ -5,7 +5,7 @@ export default function Cursos() {
   const [cursos, setCursos] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/cursos")
+    axios.get(process.env.REACT_APP_API_URL + "/cursos")
       .then(res => setCursos(res.data));
   }, []);
 
